@@ -6,7 +6,7 @@ For more information on using API Builder please see the [API Builder Getting St
 
 This is an example on how you can easily create an endpoint to get the current weather in your city using API Builder tool (by Axway).
 
-1. Downlaod the project.
+1. Download the project
 2. Add in the .env file under the folder /conf the following values: 
 
 ![Screenshot 2022-03-17 at 10 23 01](https://user-images.githubusercontent.com/83083440/158778276-d66d209e-6173-4a4c-a77d-3bfa79be982e.png)
