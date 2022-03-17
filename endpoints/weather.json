@@ -1,0 +1,51 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "weather",
+    "version": "1.0"
+  },
+  "host": "localhost:3000",
+  "schemes": [
+    "http"
+  ],
+  "produces": [
+    "application/json"
+  ],
+  "consumes": [
+    "application/json"
+  ],
+  "paths": {
+    "/weather/{city}": {
+      "get": {
+        "summary": "Your GET weather endpoint",
+        "tags": [
+          "weather"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "type": "object",
+              "properties": {}
+            }
+          }
+        },
+        "operationId": "get-weather",
+        "description": "A weather api. ",
+        "parameters": [],
+        "x-flow": "weather-get-weather"
+      },
+      "parameters": [
+        {
+          "type": "string",
+          "name": "city",
+          "in": "path",
+          "required": true,
+          "description": "Insert a valid city name.",
+          "pattern": "^[A-Za-z]"
+        }
+      ]
+    }
+  },
+  "definitions": {}
+}
