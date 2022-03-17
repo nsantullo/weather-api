@@ -8,9 +8,8 @@ This is an example on how you can easily create an endpoint to get the current w
 
 1. Downlaod the project.
 2. Add in the .env file under the folder /conf the following values: 
-PORT=8080
-LOG_LEVEL=debug
-WEATHER_KEY=XXXXX
+
+![Screenshot 2022-03-17 at 10 23 01](https://user-images.githubusercontent.com/83083440/158778276-d66d209e-6173-4a4c-a77d-3bfa79be982e.png)
 
 You can get the weather key for free in the following website: https://openweathermap.org/api
 
